@@ -97,7 +97,7 @@ export default function Game(){
 
     return <li key = {move + Math.random()}>
       <butotn onClick={() => jumpTo(move)}>{description}</butotn>
-    </li>a
+    </li>
   })
 
   return (
