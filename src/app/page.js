@@ -96,9 +96,9 @@ export default function Game(){
     }
 
     return <li key = {move + Math.random()}>
-      <butotn onClick={() => jumpTo(move)}>{description}</butotn>
+      <button onClick={() => jumpTo(move)}>{description}</button>
     </li>
-  })
+  });
 
   return (
   <div className="game">
